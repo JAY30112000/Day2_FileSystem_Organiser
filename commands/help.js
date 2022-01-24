@@ -4,13 +4,16 @@ function helpFn(){
     console.log(`
     List of All the commands:
                             peppy tree "directoryPath"
-<<<<<<< HEAD
-                            peppy main.js organize "directoryPath"
-                            peppy main.js help
-=======
                             peppy organize "directoryPath"
                             peppy help
->>>>>>> a244abc636bbe695c5a9abd81b6b797de77df201
+                            peppy wcat filenames 
+                                        options: 
+                                                -s : replaces more than one continous empty lines with only one
+                                                -b : gives numbering to the non empty lines (not used with -n)
+                                                -n : gives numbering to all the lines (not used with -b)
+                                                >:writes(overrides) content of files on the left(after concatinating data) to the file on the right(if not present creates it).
+                                                >>:append content of files on the left(after concatinating data) to the file on the right(if not present creates it).
+                                                
     `);
 }
 module.exports = {
