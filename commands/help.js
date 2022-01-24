@@ -11,8 +11,8 @@ function helpFn(){
                                                 -s : replaces more than one continous empty lines with only one.
                                                 -b : gives numbering to the non empty lines (not used with -n).
                                                 -n : gives numbering to all the lines (not used with -b).
-                                                >:writes(overrides) content of files on the left(after concatinating data) to the file on the right(if not present creates it).
-                                                >>:append content of files on the left(after concatinating data) to the file on the right(if not present creates it).
+                                                >  : writes(overrides) content of files on the left(after concatinating data) to the file on the right(if not present creates it).
+                                                >> : append content of files on the left(after concatinating data) to the file on the right(if not present creates it).
                                                 
     `);
 }
