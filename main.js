@@ -6,6 +6,7 @@ let path = require("path");
 let helpObj = require("./commands/help");
 let organizeObj = require("./commands/organize");
 let treeObj = require("./commands/tree");
+let wcatObj = require("./commands/wcat");
 
 let command = inputArr[0];
 switch(command){
@@ -17,6 +18,9 @@ switch(command){
         break;
     case "help":
         helpObj.helpKey();
+        break;
+    case "wcat":
+        wcatObj.wcatKey(inputArr.slice(1));
         break;
     default:
         console.log("Please Input Right Command ");
