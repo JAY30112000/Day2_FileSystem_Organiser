@@ -1,9 +1,12 @@
 # File System Organiser (command line functions)
 Implements some of the command line functions.
 
-List of All the commands:  "\n"
-                            "\t" peppy tree "directoryPath" "\n"
+List of All the commands:  
+
+                             peppy tree "directoryPath" 
+                             
                             
-                            "\t" peppy organize "directoryPath" "\n"
+                             peppy organize "directoryPath"
+                             
                             
-                            "\t" peppy help
+                             peppy help
