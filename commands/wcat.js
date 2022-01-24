@@ -1,6 +1,12 @@
 let fs = require("fs");
 let path = require("path");
 
+//peppy wcat f1.txt f2.txt -b > f6.txt
+//peppy wcat f1.txt f2.txt
+//peppy wcat f1.txt f2.txt -b
+//peppy wcat f1.txt f2.txt -n
+//peppy wcat f1.txt f2.txt -s -b
+
 function wcatFn(inputArr){
     // console.log(inputArr);
     let optionsArr = inputArr.filter((v) => v.charAt(0)=='-');
