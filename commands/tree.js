@@ -1,3 +1,5 @@
+let fs = require("fs");
+let path = require("path");
 //tree implemented
 function treeFn(dirPath){
     //console.log("Tree command implemented for", dirPath);
