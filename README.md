@@ -11,6 +11,7 @@ List of All the commands:
                             
                              peppy help
                              
+                             
                              peppy wcat "filenames"
                                         options: 
                                                 -s : replaces more than one continous empty lines with only one.
