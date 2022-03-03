@@ -1,5 +1,7 @@
 let utilityObj = require("./utility");
 let types = utilityObj.types;
+let fs = require("fs");
+let path = require("path");
 
 //organize implemented
 function organizeFn(dirPath){
