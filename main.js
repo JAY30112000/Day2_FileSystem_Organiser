@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 let inputArr = process.argv.slice(2);
 const { doesNotThrow } = require("assert");
-let fs = require("fs");
-let path = require("path");
+// let fs = require("fs");
+// let path = require("path");
 let helpObj = require("./commands/help");
 let organizeObj = require("./commands/organize");
 let treeObj = require("./commands/tree");
